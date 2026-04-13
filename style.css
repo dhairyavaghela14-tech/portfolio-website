@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    background: #020617;
+    padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #38bdf8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home span {
+    color: #38bdf8;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-box span {
+    background: #1e293b;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+footer {
+    background: #020617;
+    padding: 20px;
+}
